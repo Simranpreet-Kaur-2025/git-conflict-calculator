@@ -11,7 +11,6 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a / b if b != 0 else "Error: cannot divide by zero"
-
+    return round(a/b,2) if b != 0 else "Error: cannot divide by zero"
 
 print("10 / 4 =", divide(10, 4))
