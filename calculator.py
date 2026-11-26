@@ -11,7 +11,7 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a / b
+    return round(a/b,2)
 
 
 print("10 / 4 =", divide(10, 4))
